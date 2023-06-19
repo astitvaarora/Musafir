@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:gravity="center|center_vertical"
+    android:orientation="vertical"
+    tools:context=".select_state_grid">
+
+    <TextView
+        android:id="@+id/select_stat"
+        android:layout_width="140dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:text="SELECT STATE"
+        android:textColor="#757575"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/Delhi"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/delhi_grid"
+        android:elevation="12dp"
+        />
+
+    <TextView
+        android:id="@+id/delhi_text"
+        android:layout_width="46dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:text="DELHI"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/pune"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/pune_grid"
+        android:elevation="12dp"
+        />
+
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:text="PUNE"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/agra"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/agra_grid"
+        android:elevation="12dp"
+        />
+
+    <TextView
+        android:layout_width="42dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:text="AGRA"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rajasthan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/rajasthan_grid"
+        android:elevation="12dp"
+        />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:text="RAJASTHAN"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/hyderabad"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="447dp"
+        android:background="@drawable/hyderabad_grid"
+        android:elevation="12dp"
+        />
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="607dp"
+        android:text="HYDERABAD"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/kolkata"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="447dp"
+        android:background="@drawable/kolkata_grid"
+        android:elevation="12dp"
+        />
+    <TextView
+        android:layout_width="69dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="236dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="607dp"
+        android:text="KOLKATA"
+        android:textAppearance="@style/monument_name_style"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/chat_icon"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="293dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="646dp"
+        android:background="@drawable/chat_icon"
+        />
+
+</RelativeLayout>

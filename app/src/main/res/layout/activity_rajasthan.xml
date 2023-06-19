@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+
+    tools:context=".Delhi">
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="240dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#373737"
+        android:text="Welcome to Rajasthan"
+        android:fontFamily="@font/rubik_regular"
+        android:textSize="23sp"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_5"
+        android:layout_width="315dp"
+        android:layout_height="20.01dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/frame_5"/>
+
+
+
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52.69dp"
+        android:background="@drawable/food_icon"
+        />
+
+    <TextView
+        android:id="@+id/food"
+        android:layout_width="42dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58.01dp"
+        android:text="Food"
+        android:textSize="17sp"
+        android:textColor="#757575"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52.69dp"
+        android:background="@drawable/art_culture"
+        />
+
+
+    <TextView
+        android:id="@+id/arts_and_cu"
+        android:layout_width="131dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="144.01dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56.5dp"
+        android:text="Arts and Culture"
+        android:textSize="17sp"
+        android:textColor="#757575"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/group_4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="287.01dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55.49dp"
+        android:background="@drawable/shopping_icon"
+        />
+
+    <TextView
+        android:id="@+id/shopping"
+        android:layout_width="79dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="316dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56.01dp"
+        android:text="Shopping"
+        android:textSize="17sp"
+        android:textColor="#757575"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/lorem_ipsum"
+        android:layout_width="324dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:text="@string/rajasthan_desc"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="3sp"
+        android:translationY="-1.53sp"
+        android:gravity="top"
+        />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp"
+        android:layout_marginTop="271dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRajasthanMonumentImg"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/paymentbtn"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="750dp"
+        android:text="Book Tickets ->"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#2989E1"
+        android:background="@drawable/frame_2"
+        />
+
+
+
+
+</RelativeLayout>

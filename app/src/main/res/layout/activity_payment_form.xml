@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Payment_form"
+    android:paddingTop="40dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NametextField"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="#404349"
+        android:hint="Enter name"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EmailtextField"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:boxBackgroundColor="#404349"
+        android:hint="Enter Email"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/PhoneNotextField"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="153dp"
+        app:boxBackgroundColor="#404349"
+        android:hint="Enter Phone Number"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Verification"
+        app:boxBackgroundColor="#404349"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/menu_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/IDtextField"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="#404349"
+        android:hint="Enter ID"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="344dp"
+        android:gravity="fill">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/childtextField"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#404349"
+            android:inputType="number"
+            android:hint="Enter no of children"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adulttextField"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#404349"
+            android:inputType="number"
+            android:hint="Enter no of Adult"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/foreignertextField"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#404349"
+            android:inputType="number"
+            android:hint="Enter no of Foreigner"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="date"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/datebtn"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
+            android:text="Pick Date"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="#FFFFFF"
+            android:background="#404349"
+            />
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/paymentbtn"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="720dp"
+        android:text="Book Tickets ->"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#2989E1"
+        android:background="@drawable/frame_2"
+        />
+
+
+
+
+</RelativeLayout>
